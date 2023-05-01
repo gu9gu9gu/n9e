@@ -48,6 +48,7 @@ Complete!
 ```
 修改docker 目录位置,可以跳过该步骤
 ```sh
+mkdir /etc/docker -p
 cat >> /etc/docker/daemon.json  <<EOF
 {
 "data-root": "/data/docker"
@@ -67,3 +68,8 @@ Docker version 23.0.4, build f480fb1
 [root@arm-01 data]# docker-compose version
 Docker Compose version v2.17.2
 ```
+
+![](/img/Snipaste_2023-04-23_13-57-04.jpg)
+
+安装git
+![](/img/Snipaste_2023-04-24_09-52-05.jpg)
